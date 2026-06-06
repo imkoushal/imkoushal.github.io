@@ -281,6 +281,7 @@ section { padding: 80px 48px; }
 .project-link:hover { gap: 14px; }
 .project-link.green { color: var(--green); }
 .project-link.purple { color: var(--purple); }
+.project-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
 
 /* ===== Skills ===== */
 .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
